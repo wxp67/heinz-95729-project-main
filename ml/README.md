@@ -1,26 +1,17 @@
 # Machine Learning Part
 
-## Getting Started
+## Preparing some packages
 
-1. Follow the [instructions to get the API running](api)
-1. Follow the [instructions to get the web app running](web)
+```pip install -r requirements.txt```
 
-## Starting the API
-
-Also see the [API README](api/README.md)
+## Starting the ML
 
 ```Shell
-cd api
-pnpm run watch
+cd ml
+python knn.py
 ```
 
-## Starting the Web app
+You will need to input the restaurant feature listed in "features.txt".
 
-Also see the [web README](web/README.md)
+Then, you will get the search list, user-based result list, content-based result list and intersection list.
 
-```Shell
-cd web
-pnpm run watch
-```
-
-Navigate to http://localhost:3001 to see the app
