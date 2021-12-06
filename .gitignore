@@ -1,0 +1,10 @@
+*.zip
+*.gz
+*.idea
+**/.DS_Store
+*.tar
+**/.ipynb_checkpoints
+**/.idea
+**/.pytest_cache
+**/__pycache__
+!.gitignore
